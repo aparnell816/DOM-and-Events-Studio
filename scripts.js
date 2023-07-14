@@ -5,6 +5,7 @@ window.addEventListener("load", function() {
     let takeOff = document.getElementById("takeoff");
     let flightStatus = document.getElementById("flightStatus");
     let shuttleBackground = document.getElementById("shuttleBackground");
+    let spaceShuttleHeight = document.getElementById("spaceShuttleHeight");
     
 
 
@@ -14,10 +15,12 @@ window.addEventListener("load", function() {
        if (response) {
         flightStatus.innerText = "Shuttle in flight.";
         shuttleBackground.style.backgroundColor = "blue";
+        spaceShuttleHeight.innerText = "10,000";
         
        } else {
         flightStatus.innerText = "Space shuttle ready for takeoff";
         shuttleBackground.style.backgroundColor = "green";
+        spaceShuttleHeight.innerText = 0;
        }
     });
 
