@@ -30,6 +30,7 @@ window.addEventListener("load", function() {
         window.alert("The shuttle is landing. Landing gear engaged.");
         flightStatus.innerText = "Mission aborted.";
         shuttleBackground.style.backgroundColor = "green";
+        spaceShuttleHeight.innerText = 0;
     })
 
     
