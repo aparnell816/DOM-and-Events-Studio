@@ -6,6 +6,8 @@ window.addEventListener("load", function() {
     let flightStatus = document.getElementById("flightStatus");
     let shuttleBackground = document.getElementById("shuttleBackground");
     let spaceShuttleHeight = document.getElementById("spaceShuttleHeight");
+
+    let landing = document.getElementById("landing");
     
 
 
@@ -23,6 +25,10 @@ window.addEventListener("load", function() {
         spaceShuttleHeight.innerText = 0;
        }
     });
+
+    landing.addEventListener("click", function (event) {
+        window.alert("The shuttle is landing. Landing gear engaged.");
+    })
 
     
 });
