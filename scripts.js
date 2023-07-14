@@ -28,6 +28,7 @@ window.addEventListener("load", function() {
 
     landing.addEventListener("click", function (event) {
         window.alert("The shuttle is landing. Landing gear engaged.");
+        flightStatus.innerText = "Mission aborted.";
     })
 
     
