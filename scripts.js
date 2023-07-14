@@ -11,6 +11,8 @@ window.addEventListener("load", function() {
 
        if (response) {
         flightStatus.innerText = "Shuttle in flight.";
+       } else {
+        flightStatus.innerText = "Space shuttle ready for takeoff";
        }
     });
 
